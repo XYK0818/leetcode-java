@@ -4,13 +4,19 @@ public class Solution {
         int leftsum=0;
 
         // loop through the nums array to find the sum of all elements
-        <something>
+        for(int i=0;i<nums.length;i++){
+            totalsum=totalsum+nums[i];
+        }
 
         // loop through the nums array
         // find if the index is the middle
         // think about how to find if the index is middle
-        <something>
-
+        for(int i=0;i<nums.length;i++){
+            if((2*leftsum)==(totalsum-nums[i])){
+                return i;
+            }
+            leftsum=leftsum+nums[i];
+        }
         return -1;
     }
 }
