@@ -1,20 +1,23 @@
 public class Solution {
     public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
-            return false;
+        // check if the length of s and t are the same.
+        // if not, they can't be anagram. return false
+        if (<something>) {
+            <something>
         }
 
-        int[] freq = new int[26];
-        for (int i = 0; i < s.length(); i++) {
-            freq[s.charAt(i) - 'a']++;
-            freq[t.charAt(i) - 'a']--;
-        }
+        // create an array of integers to represent the number of occurrence of each letter
+        int[] freq = <something>;
 
-        for (int i = 0; i < freq.length; i++) {
-            if (freq[i] != 0) {
-                return false;
-            }
-        }
+        // loop through both s for each letter increase the occurrence by 1
+        // loop through both t for each letter decrease the occurrence by 1
+        <something>
+
+        // loop through the occurrence array.
+        // if it contains non-zero value,
+        // it means that some letter's number of occurrence is not even up, return false
+        // otherwise, if all values in the array is zero, return True
+        <something>
 
         return true;
     }
