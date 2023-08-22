@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Q0001.2sum/Q0001.2sum.iml" filepath="$PROJECT_DIR$/Q0001.2sum/Q0001.2sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q0020.ValidParentheses/Q0020.ValidParentheses.iml" filepath="$PROJECT_DIR$/Q0020.ValidParentheses/Q0020.ValidParentheses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q0066.PlusOne/Q0066.PlusOne.iml" filepath="$PROJECT_DIR$/Q0066.PlusOne/Q0066.PlusOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q0242.ValidAnagram/Q0242.ValidAnagram.iml" filepath="$PROJECT_DIR$/Q0242.ValidAnagram/Q0242.ValidAnagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q0485.MaxConsecutiveOnes/Q0485.MaxConsecutiveOnes.iml" filepath="$PROJECT_DIR$/Q0485.MaxConsecutiveOnes/Q0485.MaxConsecutiveOnes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q0941.ValidMountainArray/Q0941.ValidMountainArray.iml" filepath="$PROJECT_DIR$/Q0941.ValidMountainArray/Q0941.ValidMountainArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1346.CheckIfNAndItsDoubleExist/Q1346.CheckIfNAndItsDoubleExist.iml" filepath="$PROJECT_DIR$/Q1346.CheckIfNAndItsDoubleExist/Q1346.CheckIfNAndItsDoubleExist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1991.FindTheMiddleIndexInArray/Q1991.FindTheMiddleIndexInArray.iml" filepath="$PROJECT_DIR$/Q1991.FindTheMiddleIndexInArray/Q1991.FindTheMiddleIndexInArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/check2/check2.iml" filepath="$PROJECT_DIR$/check2/check2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode-java.iml" filepath="$PROJECT_DIR$/.idea/leetcode-java.iml" />
     </modules>
   </component>

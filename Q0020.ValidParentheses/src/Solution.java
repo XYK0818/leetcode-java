@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class Solution {
-    public boolean isValid(String s) {
+    public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>(); // create an empty stack
         for (char c : s.toCharArray()) { // loop through each character in the string
             if (c == '(') // if the character is an opening parenthesis
@@ -18,5 +20,26 @@ public class Solution {
         // if the stack is empty, all opening brackets have been matched with their corresponding closing brackets,
         // so the string is valid, otherwise, there are unmatched opening brackets, so return false
         return stack.isEmpty();
+    }
+
+    public static boolean isValidArrayList(String s) {
+        ArrayList<Character> List = new ArrayList<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                List.add(')');
+            } else if (c == '{') {
+                List.add('}');
+            } else if (c == '[') {
+                List.add(']');
+            } else {
+                int len = List.size();
+                char lastChar = List.get(len-1);
+                List.remove(len-1);
+                if (List.isEmpty() || lastChar != c){
+                    return false;
+                }
+            }
+        }
+        return List.isEmpty();
     }
 }
